@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Book an appointment at Lux Crown Hair Studio for haircuts, styling, braids, treatments, and event glam." />
+    <title>Book Now | Lux Crown Hair Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="book">
+    <!-- Shared site header -->
+    <header class="site-header">
+      <div class="container navbar">
+        <a href="index.html" class="brand" aria-label="Lux Crown Hair Studio home">
+          Lux Crown <span>Hair Studio</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="lookbook.html">Lookbook</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="book.html" class="active">Book Now</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="book.html" class="btn btn-primary hidden-mobile">Book now</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero small-hero">
+        <div class="container page-hero-inner">
+          <p class="eyebrow">Book an appointment</p>
+          <h1>Reserve your next salon experience.</h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container booking-layout">
+          <div class="booking-card">
+            <h2>Appointment request</h2>
+            <form class="appointment-form" action="#" method="post">
+              <div class="form-row">
+                <label>
+                  Full name
+                  <input type="text" name="fullName" placeholder="Your name" required />
+                </label>
+                <label>
+                  Email address
+                  <input type="email" name="email" placeholder="Your email" required />
+                </label>
+              </div>
+
+              <div class="form-row">
+                <label>
+                  Phone number
+                  <input type="tel" name="phone" placeholder="Your phone number" required />
+                </label>
+                <label>
+                  Preferred date
+                  <input type="date" name="date" required />
+                </label>
+              </div>
+
+              <div class="form-row">
+                <label>
+                  Service
+                  <select name="service" required>
+                    <option value="">Select a service</option>
+                    <option>Haircut & Styling</option>
+                    <option>Braiding & Extensions</option>
+                    <option>Natural Hair Care</option>
+                    <option>Event Styling</option>
+                    <option>Wig Installation</option>
+                    <option>Hair Treatment</option>
+                  </select>
+                </label>
+                <label>
+                  Preferred time
+                  <select name="time" required>
+                    <option value="">Select a time</option>
+                    <option>09:00</option>
+                    <option>10:30</option>
+                    <option>12:00</option>
+                    <option>14:00</option>
+                    <option>15:30</option>
+                  </select>
+                </label>
+              </div>
+
+              <label>
+                Additional notes
+                <textarea name="notes" rows="5" placeholder="Tell us about your preferred look or occasion."></textarea>
+              </label>
+
+              <button type="submit" class="btn btn-primary form-button">Send request</button>
+            </form>
+          </div>
+
+          <aside class="booking-info">
+            <h3>Need a quick answer?</h3>
+            <p>Call our team during salon hours for immediate availability and guidance.</p>
+            <ul>
+              <li>(011) 555-0123</li>
+              <li>hello@luxcrownstudio.co.za</li>
+              <li>Mon–Fri: 9:00–18:00</li>
+              <li>Sat: 9:00–15:00</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Lux Crown Hair Studio</h3>
+          <p>Classic hair artistry for everyday confidence and unforgettable events.</p>
+        </div>
+        <div>
+          <h4>Visit us</h4>
+          <p>123 Crown Avenue</p>
+          <p>Johannesburg, South Africa</p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>(011) 555-0123</p>
+          <p>hello@luxcrownstudio.co.za</p>
+        </div>
+        <div>
+          <h4>Hours</h4>
+          <p>Mon–Fri: 9:00–18:00</p>
+          <p>Sat: 9:00–15:00</p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© <span id="year"></span> Lux Crown Hair Studio. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

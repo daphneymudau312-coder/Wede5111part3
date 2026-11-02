@@ -1,12 +1,12 @@
- Lux Crown Hair Studio Website
+# Lux Crown Hair Studio Website
 
 This project is a classic, elegant salon website designed for a boutique hair studio. It presents the business professionally, shares service information, highlights the salon's aesthetic, and supports appointment and enquiry requests.
 
- Project overview
+## Project overview
 
 Lux Crown Hair Studio is a boutique hair salon offering a mix of modern and traditional hair styling services, including braiding, natural hair care, haircuts, hair extensions, wig installation, styling for events, and general hair treatments. The website was designed to meet the business requirements of showcasing services, promoting the brand, and making appointment and enquiry requests easy for clients.
 
- Included pages
+## Included pages
 
 - Home
 - About
@@ -17,7 +17,7 @@ Lux Crown Hair Studio is a boutique hair salon offering a mix of modern and trad
 - Enquiry
 - Contact
 
- Features implemented
+## Features implemented
 
 - Responsive multi-page website using HTML and CSS
 - External stylesheet for consistent site styling
@@ -32,13 +32,13 @@ Lux Crown Hair Studio is a boutique hair salon offering a mix of modern and trad
 - Accessibility-minded form labels, status messages, and keyboard-friendly controls
 - JavaScript for mobile navigation, dynamic interactivity, and form feedback
 
-Website design notes
+## Website design notes
 
 The visual style follows a classic and premium salon aesthetic, using elegant serif headings, a warm cream background, and soft gold accents. The layout was structured to help content feel clear, luxurious, and easy to navigate across desktop, tablet, and mobile screens.
 
- Changelog
+## Changelog
 
- Part 3 enhancement and functionality update
+### 2026-10-15 — Part 3 enhancement and functionality update
 - Added a dedicated enquiry page to meet the assignment requirement for service inquiries, sponsorship, and volunteer requests.
 - Updated the main navigation across all pages to include the new Enquiry page and improve user flow between booking, enquiry, and contact.
 - Reworked the contact form to include a subject selector, phone number field, stronger validation, and email-composition support using the form's mailto functionality.
@@ -51,7 +51,7 @@ The visual style follows a classic and premium salon aesthetic, using elegant se
 - Created `robots.txt` and `sitemap.xml` files as part of the required on-page and off-page SEO support.
 - Updated the styling system to support dynamic form states, accordion panels, and responsive layout improvements.
 
-Initial website build and Part 2 implementation
+### 2026-09-17 — Initial website build and Part 2 implementation
 - Created a complete 7-page salon website for Lux Crown Hair Studio with all requested sections: Home, About, Services, Lookbook, Packages, Book Now, and Contact.
 - Reworked the project name and branding to align with the approved proposal: Lux Crown Hair Studio.
 - Added a consistent header and footer across all pages to improve navigation and branding.
@@ -63,7 +63,7 @@ Initial website build and Part 2 implementation
 - Added JavaScript for mobile navigation toggle and static form interactivity.
 - Prepared the project for repository use and documentation updates with the required changelog and references section.
 
-  Feedback corrections and content alignment
+### 2026-09-17 — Feedback corrections and content alignment
 - Corrected the website structure so that it matched the proposal more closely by ensuring all required pages and salon services are represented.
 - Updated page copy to reflect Lux Crown Hair Studio rather than inconsistent naming variations from earlier drafts.
 - Improved the professional presentation of the services section by adding more detailed descriptions and clearer pricing ranges.
@@ -71,7 +71,7 @@ Initial website build and Part 2 implementation
 - Improved mobile responsiveness by adjusting layout stacks and form widths for smaller screens.
 - Added descriptive comments within the code to improve readability and support future editing by students or lecturers.
 
-Responsive design testing notes
+## Responsive design testing notes
 
 The website uses media queries to adjust layout and typography at key breakpoints for desktop, tablet, and mobile screens.
 
@@ -79,7 +79,7 @@ The website uses media queries to adjust layout and typography at key breakpoint
 - Tablet: reduced navigation complexity and two-column content arrangements
 - Mobile: single-column stacking for content, forms, and image layouts
 
- SEO implementation notes
+## SEO implementation notes
 
 The site includes search-engine-friendly practices to support visibility and better indexing:
 
@@ -91,7 +91,7 @@ The site includes search-engine-friendly practices to support visibility and bet
 - Mobile-friendly responsive layout and clear page structure
 - Sitemap and robots file included for crawler guidance
 
-References
+## References
 
 1. Google Fonts. (n.d.). Cormorant Garamond and Manrope fonts. https://fonts.google.com/
 2. Unsplash. (n.d.). Free stock photography for beauty and salon content. https://unsplash.com/
@@ -101,4 +101,17 @@ References
 6. Google. (n.d.). Google Maps embed documentation. https://developers.google.com/maps
 7. Sitemap.org. (n.d.). Sitemap protocol and XML sitemap documentation. https://www.sitemaps.org/
 
+## How to run the website locally
 
+1. Open the project folder in a browser directly, or use a local web server.
+2. If using a local server, open the terminal in this project folder and run:
+   python -m http.server 8000
+3. Then open: http://localhost:8000
+
+## Deployment notes
+
+This project is designed as a static website and can be deployed on any free hosting platform, including GitHub Pages or Netlify. To publish on GitHub Pages, upload the project folder to a GitHub repository and enable GitHub Pages in the repository settings.
+
+## Repository notes
+
+This project is set up as a static website and can be pushed to a GitHub repository once the user is ready to publish it remotely.
